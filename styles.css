@@ -31,8 +31,57 @@ form button {
 
  header {
     background-color: teal;
-    color: white;
+    color: black;
     padding: 1rem;
     margin-bottom: 1rem;
     text-align: center;
  }
+
+ footer {
+    background-color: teal;
+    color: white;
+    padding: 3px;
+    margin-top: 25rem;
+    text-align: center;
+    
+ }
+
+ a {
+    text-decoration: none; 
+    color: teal; 
+}
+
+nav{
+    text-align: left;
+}
+
+aside{
+    width: 200px; 
+    height: 100vh; 
+    position: absolute; 
+    left: 0; 
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+ img{
+    width: 20%;
+ }
+
+ main{
+    flex: 1;
+    margin-left:150px;
+ }
+
+ img.img {
+    float: left; 
+    margin-right: 20px; 
+}
