@@ -85,3 +85,14 @@ li{
     float: left; 
     margin-right: 20px; 
 }
+
+@media (max-width: 600px) {
+    aside {
+        position: static; /* Reset the position to the default */
+        width: 100%; /* Make the width full for smaller screens */
+    }
+
+    nav {
+        text-align: center; /* Center the navigation menu on smaller screens */
+    }
+}
